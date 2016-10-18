@@ -17,6 +17,8 @@ public class RectagleStars {
 			if(!input.matches("^[0-9]+$")) { System.out.println("\n제대로 입력해주세요."); continue; }
 			size=Integer.parseInt(input);
 			
+			if(size==1) { System.out.print("*\n"); break;}
+			
 			for(int i=0;i<size/2;i++) {
 				for(int j=0;j<size;j++) {
 					System.out.print("*");

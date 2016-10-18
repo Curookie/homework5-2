@@ -34,10 +34,10 @@ public class ExamForWhileStars {
 				new TriangleStars();
 				break;	
 			case 3:
-				
+				new IsoscelesTriangleStars().IsoTriangle();
 				break;	
 			case 4:
-				
+				new IsoscelesTriangleStars().Diamond();
 				break;	
 			}
 		}

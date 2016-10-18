@@ -23,10 +23,10 @@ public class TriangleStars {
 			
 			for(int i=0;i<height;i++) {
 				for(int j=0;j<lpad+height;j++) {
-					if(j+1>=lpad+height-i) {
-						System.out.print("*");	
+					if(j+1<lpad+height-i) {
+						System.out.print(" ");	
 					} else {
-						System.out.print(" ");
+						System.out.print("*");
 					}
 				}System.out.println();
 			}
