@@ -12,12 +12,12 @@ public class ExamForWhileStars {
 		String input="";
 		int menu=0;
 		
-		while(true) {
+		while(menu!=5) {
 			System.out.println("======================");
 			System.out.println("   반복문 연습하기2   ");
 			System.out.println("**********************");
 			System.out.println("1. 정사각형 별찍기");
-			System.out.println("2. 직각삼각 별찍기");
+			System.out.println("2. 직각삼각형 별찍기");
 			System.out.println("3. 이등변삼각형 별찍기");
 			System.out.println("4. 다이아몬드 별찍기");
 			System.out.println("5. 종료하기");
@@ -31,7 +31,7 @@ public class ExamForWhileStars {
 				break;
 				
 			case 2:
-				
+				new TriangleStars();
 				break;	
 			case 3:
 				
@@ -39,11 +39,7 @@ public class ExamForWhileStars {
 			case 4:
 				
 				break;	
-			case 5:
-				
-				break;	
 			}
-			break;
 		}
 		
 		
