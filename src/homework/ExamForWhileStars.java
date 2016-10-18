@@ -28,8 +28,7 @@ public class ExamForWhileStars {
 			switch (menu) {
 			case 1: 
 				new RectagleStars();
-				break;
-				
+				break;		
 			case 2:
 				new TriangleStars();
 				break;	
@@ -40,9 +39,6 @@ public class ExamForWhileStars {
 				new IsoscelesTriangleStars().Diamond();
 				break;	
 			}
-		}
-		
-		
+		}		
 	}
-
 }
